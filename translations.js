@@ -93,5 +93,34 @@ const translations = {
     "contact_form_send": { "en": "Send Message", "es": "Enviar Mensaje", "fr": "Envoyer le message" },
     "contact_ai_prompt": { "en": "Or talk to our AI Assistant right now!", "es": "¡O habla con nuestro Asistente de IA ahora mismo!", "fr": "Ou parlez à notre assistant IA dès maintenant !" },
     "contact_ai_desc": { "en": "Our AI is available 24/7 to answer your questions. Look for the chat icon in the corner!", "es": "Nuestra IA está disponible 24/7 para responder tus preguntas. ¡Busca el ícono de chat en la esquina!", "fr": "Notre IA est disponible 24/7 pour répondre à vos questions. Cherchez l'icône de chat dans le coin !" },
-    "footer_copyright": { "en": "© 2025 Smart Global Tech. All rights reserved.", "es": "© 2025 Smart Global Tech. Todos los derechos reservados.", "fr": "© 2025 Smart Global Tech. Tous droits réservés." }
+    "footer_copyright": { "en": "© 2025 Smart Global Tech. All rights reserved.", "es": "© 2025 Smart Global Tech. Todos los derechos reservados.", "fr": "© 2025 Smart Global Tech. Tous droits réservés." },
+
+    // International Recruitment Section
+    "recruitment_title": { "en": "International Recruitment", "es": "Reclutamiento Internacional", "fr": "Recrutement International" },
+    "recruitment_p1": { "en": "We specialize in finding the best talent for key industries:", "es": "Nos especializamos en encontrar el mejor talento para industrias clave:", "fr": "Nous sommes spécialisés dans la recherche des meilleurs talents pour les industries clés :" },
+    "job_transport_title": { "en": "Transport", "es": "Transporte", "fr": "Transport" },
+    "job_transport_desc": { "en": "Qualified drivers and logistics personnel.", "es": "Conductores calificados y personal de logística.", "fr": "Chauffeurs qualifiés et personnel logistique." },
+    "job_construction_title": { "en": "Construction", "es": "Construcción", "fr": "Construction" },
+    "job_construction_desc": { "en": "Skilled workers for all types of construction projects.", "es": "Trabajadores calificados para todo tipo de proyectos de construcción.", "fr": "Travailleurs qualifiés pour tous types de projets de construction." },
+    "job_production_title": { "en": "Production Operators", "es": "Operadores de Producción", "fr": "Opérateurs de Production" },
+    "job_production_desc": { "en": "Efficient staff for manufacturing and production lines.", "es": "Personal eficiente para líneas de manufactura y producción.", "fr": "Personnel efficace pour les lignes de fabrication et de production." },
+
+    // Plans Section
+    "plans_title": { "en": "Our Plans", "es": "Nuestros Planes", "fr": "Nos Plans" },
+    "plans_p1": { "en": "Choose the plan that best fits your needs.", "es": "Elige el plan que mejor se adapte a tus necesidades.", "fr": "Choisissez le plan qui correspond le mieux à vos besoins." },
+    "plan_basic_title": { "en": "Basic Plan", "es": "Plan Básico", "fr": "Plan Basique" },
+    "plan_basic_desc": { "en": "Essential services to get you started.", "es": "Servicios esenciales para comenzar.", "fr": "Services essentiels pour commencer." },
+    "plan_standard_title": { "en": "Standard Plan", "es": "Plan Estándar", "fr": "Plan Standard" },
+    "plan_standard_desc": { "en": "Advanced solutions for growing businesses.", "es": "Soluciones avanzadas para empresas en crecimiento.", "fr": "Solutions avancées pour les entreprises en croissance." },
+    "plan_premium_title": { "en": "Premium Plan", "es": "Plan Premium", "fr": "Plan Premium" },
+    "plan_premium_desc": { "en": "Comprehensive support for maximum impact.", "es": "Soporte integral para el máximo impacto.", "fr": "Support complet pour un impact maximal." },
+    "plan_custom_title": { "en": "Customize", "es": "Personalizar", "fr": "Personnaliser" },
+    "plan_custom_desc": { "en": "Tailored solutions for your specific requirements.", "es": "Soluciones a medida para tus requisitos específicos.", "fr": "Solutions sur mesure pour vos besoins spécifiques." },
+    "plan_contact_btn": { "en": "Contact Company", "es": "Contactar con la empresa", "fr": "Contacter l'entreprise" },
+
+    // Other Companies Section
+    "other_companies_title": { "en": "Business Network", "es": "Red Empresarial", "fr": "Réseau d'Entreprises" },
+    "company_clb_title": { "en": "Bajío Labor Connection", "es": "Conexión Laboral del Bajío", "fr": "Lien avec le travail du Bajío" },
+    "company_clb_desc": { "en": "Connecting talent with opportunities. We are your strategic partner in recruitment and personnel selection in Mexico.", "es": "Conectamos talento con oportunidades. Somos tu socio estratégico en reclutamiento y selección de personal en México.", "fr": "Connecter les talents aux opportunités. Nous sommes votre partenaire stratégique en recrutement et sélection de personnel au Mexique." },
+    "company_clb_btn": { "en": "Visit Website", "es": "Visitar Sitio Web", "fr": "Visiter le site Web" }
 };
