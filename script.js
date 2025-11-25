@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         console.error("El archivo translations.js no se cargó o está vacío.");
     }
-    
+
     initDarkMode();
     initSmoothScroll();
     initServiceAccordion();
     initBackToTopButton();
     initNavHighlighting(); // <-- NUEVA FUNCIÓN AÑADIDA
-    
+
     injectElevenLabsWidget();
 });
 
@@ -43,7 +43,7 @@ function initLanguage() {
 
     if (savedLang) {
         setLanguage(savedLang);
-    } else if (['en', 'es', 'fr'].includes(browserLang)) {
+    } else if (['en', 'es'].includes(browserLang)) {
         setLanguage(browserLang);
     } else {
         setLanguage('en');
@@ -109,7 +109,7 @@ function initDarkMode() {
     const toggle = document.getElementById('toggle-dark');
     if (!toggle) return;
     const prefersDark = localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    
+
     const applyTheme = (isDark) => {
         if (isDark) {
             document.body.classList.add('dark-mode');
@@ -129,7 +129,7 @@ function initDarkMode() {
 
 function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function (e) {
             const targetId = this.getAttribute('href');
             if (targetId && targetId !== '#') {
                 const targetElement = document.querySelector(targetId);
