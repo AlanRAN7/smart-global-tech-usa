@@ -1,6 +1,9 @@
 const translations = {
     "nav_about": { "en": "About", "es": "Nosotros" },
     "nav_services": { "en": "Services", "es": "Servicios" },
+    "nav_recruitment": { "en": "Recruitment", "es": "Reclutamiento" },
+    "nav_plans": { "en": "Plans", "es": "Planes" },
+    "nav_network": { "en": "Network", "es": "Red" },
     "nav_team": { "en": "Team", "es": "Equipo" },
     "nav_contact": { "en": "Contact", "es": "Contacto" },
     "hero_title": { "en": "Empowering Your Workforce with Smart, Tech-Driven Solutions.", "es": "Potenciamos tu Fuerza Laboral con Soluciones Tecnológicas Inteligentes." },

@@ -11,7 +11,7 @@
         content="Smart Global Tech, tech consulting, human resources, talent management, Canada, Mexico, HR tech solutions" />
 
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="images/logo-sgt-plus.png" type="image/png">
+    <link rel="icon" href="images/logo.png" type="image/png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,23 +23,27 @@
 <body>
     <header>
         <div class="container">
-            <a href="#" class="logo" aria-label="Smart Global Tech Home">
-                <img src="images/logo.png" alt="Logo de Smart Global Tech">
-            </a>
-            <nav aria-label="Primary navigation">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Smart Global Tech Logo" class="logo-img">
+                </a>
+            </div>
+            <nav>
                 <ul>
                     <li><a href="#about" data-key="nav_about">About</a></li>
                     <li><a href="#services" data-key="nav_services">Services</a></li>
+                    <li><a href="#recruitment" data-key="nav_recruitment">Recruitment</a></li>
+                    <li><a href="#plans" data-key="nav_plans">Plans</a></li>
+                    <li><a href="#other-companies" data-key="nav_network">Network</a></li>
                     <li><a href="#team" data-key="nav_team">Team</a></li>
                     <li><a href="#contact" data-key="nav_contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="header-controls">
-                <div class="language-select-wrapper">
-                    <select id="language-selector" aria-label="Select language">
+                <div class="language-selector">
+                    <select id="language-selector">
                         <option value="en">English</option>
                         <option value="es">Español</option>
-
                     </select>
                 </div>
                 <button id="toggle-dark" aria-label="Toggle dark mode">🌙</button>
